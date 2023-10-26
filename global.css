@@ -1,6 +1,9 @@
 body {
     margin: 0;
     line-height: normal;
+    padding: 0em 4em 0em 4em;
+    background-color: #f6f6f6;
+   
 }
 
 :root {

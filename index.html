@@ -4,17 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./index.css" />
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=General Sans Variable:wght@500;600&display=swap" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM Sans:wght@400;500;700&display=swap" />
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>VigiGuard</title>
 </head>
 
 <body>
     <div class="landing-page">
+
+        <nav class="navbar navbar-expand-lg  fixed-top bg-light">
+            <div class="container-fluid navi">
+                <b class="vigiguard navbar-brand"> <img src="./public/-icon-women-line.svg" alt=""
+                        style="height: 1em; width: 1em; ">VigiGuard</b>
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav navigation">
+                        <li class="nav-item about ">
+                            <a class="nav-link about" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link stories" href="#">STORIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link stories" href="#">PARTNERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link stories">EVENTS</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="log-in"><b>LOG IN</b></button>
+                <button class="sign-up"><b>SIGN UP</b></button>
+
+            </div>
+        </nav>
+
         <div class="where-resilience-meets-technol-wrapper">
             <b class="where-resilience-meets-container">
                 <p class="where-resilience-meets-technol">
@@ -34,16 +69,7 @@
                 </p>
             </b>
         </div>
-        <b class="vigiguard">VigiGuard</b>
-        <div class="navigation">
-            <b class="about">ABOUT</b>
-            <b class="stories">STORIES </b>
-            <b class="stories">PARTNERS</b>
-            <b class="stories">EVENTS</b>
-        </div>
-        <div class="cta-button"></div>
-        <b class="sign-up">SIGN UP</b>
-        <b class="log-in">LOG IN</b>
+
         <b class="share-your-story">Share Your Story</b>
         <b class="seek-helpguidance">Seek help/guidance</b>
         <b class="privacy-ensured">privacy ensured</b>
@@ -74,7 +100,7 @@
             <div class="frame-parent">
                 <div class="frame-group">
                     <div class="ellipse-parent">
-                        <img class="frame-child" alt="" src="./public/ellipse-80@2x.png" />
+                        <img class="frame-child" alt="" src="./public/ellipse-80@2x.svg" />
 
                         <div class="frame-wrapper">
                             <div class="amelia-joseph-parent">
@@ -91,7 +117,7 @@
                 </div>
                 <div class="frame-container">
                     <div class="ellipse-group">
-                        <img class="frame-child" alt="" src="./public/ellipse-801@2x.png" />
+                        <img class="frame-child" alt="" src="./public/ellipse-801@2x.svg" />
 
                         <div class="frame-div">
                             <div class="jacob-joshua-parent">
@@ -109,7 +135,7 @@
                 </div>
                 <div class="frame-parent1">
                     <div class="ellipse-group">
-                        <img class="frame-child" alt="" src="./public/ellipse-802@2x.png" />
+                        <img class="frame-child" alt="" src="./public/ellipse-802@2x.svg" />
 
                         <div class="frame-div">
                             <div class="jacob-joshua-parent">
@@ -127,9 +153,9 @@
             </div>
             <div class="testimonial-child"></div>
             <div class="testimonial-item"></div>
-            <img class="biarrow-left-short-icon" alt="" src="./public/biarrowleftshort.svg" />
+            <img class="biarrow-left-short-icon" alt="" src="./public/biarrowleftshort1.png" />
 
-            <img class="biarrow-left-short-icon1" alt="" src="./public/biarrowleftshort1.svg" />
+            <img class="biarrow-left-short-icon1" alt="" src="./public/biarrowleftshort.svg" />
         </div>
         <b class="our-technology">Our technology</b>
         <div class="partners1">
@@ -343,7 +369,7 @@
                 <img class="riinstagram-fill-icon" alt="" src="./public/icbaselinefacebook.svg" />
             </div>
             <div class="vigiguard-wrapper">
-                <b class="vigiguard1">VigiGuard</b>
+                <b class="vigiguard1"><img src="./public/icon _women line_footer.svg" alt="" style="height: 1em; width: 1em; background-color: #ff3075;">VigiGuard</b>
             </div>
         </div>
         <div class="footer">
@@ -355,6 +381,11 @@
             <div class="privacy-policy">Privacy policy</div>
         </div>
     </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
