@@ -50,3 +50,9 @@ body {
     --br-lgi: 19px;
     --br-11xl: 30px;
 }
+
+@media only screen and (max-width: 1400px) {
+    body {
+      padding:  0em 0em 0em 0em;
+    }
+  }

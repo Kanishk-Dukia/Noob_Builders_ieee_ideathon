@@ -28,7 +28,7 @@
 .where-resilience-meets-technol-wrapper {
   position: absolute;
   top: 10.13rem;
-  left: 16.38rem;
+  left: 13.38rem;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -224,7 +224,7 @@
   position: absolute;
   height: 1.9%;
   width: 6.55%;
-  top: 27.26%;
+  top: 29.76%;
   right: 22.22%;
   bottom: 70.83%;
   left: 71.23%;
@@ -799,7 +799,8 @@
   left: 0;
   text-transform: capitalize;
 }
-.vigiguard1  img{
+
+.vigiguard1 img {
   position: absolute;
   top: 2px;
   left: -36px;
@@ -1125,7 +1126,7 @@
 
 .rectangle-parent4 {
   position: absolute;
-  top: 64.29rem;
+  top: 38.29rem;
   left: 32.14rem;
   width: 13.53rem;
   height: 4.46rem;
@@ -1140,7 +1141,7 @@
   top: 220.31rem;
   left: 6.56rem;
   width: 81.06rem;
-  height: 68.75rem;
+  height: 40.75rem;
   font-size: var(--font-size-sm);
   font-family: var(--font-dm-sans);
 }
@@ -1172,10 +1173,36 @@
   position: relative;
   background-color: #f6f6f6;
   width: 100%;
-  height: 325.06rem;
+  height: 300.06rem;
   overflow: hidden;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-black);
   font-family: var(--font-montserrat);
+}
+
+@media only screen and (max-width: 1400px) {
+  .where-resilience-meets-technol-wrapper {
+
+    left: 13.38rem;
+
+  }
+
+  .privacy-ensured {
+    left: 19.69rem;
+  }
+  .seek-helpguidance {
+    left: 35.69rem;
+
+  }
+  .share-your-story {
+    left: 56.69rem;
+  }
+
+
+
+
+  .company-cuate-1-icon {
+    left: 11.06rem
+  }
 }
